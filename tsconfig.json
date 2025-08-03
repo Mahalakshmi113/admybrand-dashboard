@@ -23,5 +23,17 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+   {
+  "compilerOptions": {
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "strict": false
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "global.d.ts"],
+  "exclude": ["node_modules"]
+}
+
   "exclude": ["node_modules"]
 }
