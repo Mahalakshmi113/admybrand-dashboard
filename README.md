@@ -10,7 +10,7 @@ export default function ReadmePage() {
       <h1 className="text-2xl font-bold">📑 Project Documentation</h1>
       <p>View the full README on GitHub:</p>
       <a
-        href="https://github.com/Mahalakshmi113/admybrand-dashboard"
+        href="https://loquacious-ganache-24d6f4.netlify.app/"
         className="text-blue-500 underline"
       >
         GitHub Repo
