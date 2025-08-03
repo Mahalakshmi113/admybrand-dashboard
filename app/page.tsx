@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+// @ts-ignore
 import Papa from "papaparse";
 import jsPDF from "jspdf";
 import "jspdf-autotable";
