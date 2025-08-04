@@ -1,17 +1,57 @@
-# 📊 ADmyBRAND Insights Dashboard
+# 📊 ADmyBRAND Dashboard
 
-A modern, visually stunning **AI-Powered Analytics Dashboard** built with **Next.js 14, Bootstrap 5, and Recharts**.  
-Designed for digital marketing agencies to track **Revenue, Users, Conversions, and Growth** with interactive charts and data visualization.
+A **modern dashboard** built with Next.js, Bootstrap, and Recharts.  
+Designed to be **beautiful, responsive, and production-ready**.
+
+![Dashboard Preview](https://drive.google.com/file/d/1Y_YOHlPnqnOxQEhe1tXpEOSUNQt4VbjN/view?usp=drive_link) <!-- replace with actual screenshot -->
+
+---
+
 ## 🚀 Live Demo
-  return(
-    <div className="p-8">
-      <h1 className="text-2xl font-bold">📑 Live Dashboard</h1>
-      <p>View the full dashboard on netlify:</p>
-      <a
-        href="https://loquacious-ganache-24d6f4.netlify.app/"
-        className="text-blue-500 underline"
-      >
-        GitHub Repo
-      </a>
-    </div>
+👉 [View Live Dashboard](https://6890e1954b2c927b889e4d55--playful-entremet-88ba7a.netlify.app/)
+
+---
+
+## ✨ Features
+- **KPI Cards** → Revenue, Users, Conversions, Growth
+- **Charts**:
+  - 📈 Revenue Growth (Line Chart)  
+  - 📊 Conversions by Channel (Bar Chart)  
+  - 🖥️ Users by Device (Pie Chart)  
+  - 📉 Monthly Active vs Inactive Users (Area Chart)  
+- **User Table**:
+  - Search  
+  - Sorting  
+  - Pagination  
+  - Export as CSV / PDF  
+- **Sidebar**:
+  - Export buttons  
+  - Date filters  
+  - Toggle charts  
+- **Light/Dark Mode**  
+- **Mobile Friendly**
+
+---
+
+## 🛠️ Tech Stack
+- [Next.js](https://nextjs.org/) 15.x
+- [Bootstrap 5](https://getbootstrap.com/) + [Bootstrap Icons](https://icons.getbootstrap.com/)
+- [Recharts](https://recharts.org/)
+- [PapaParse](https://www.papaparse.com/)
+- [jsPDF](https://github.com/parallax/jsPDF)
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone repo
+git clone https://github.com/Mahalakshmi113/admybrand-dashboard.git
+cd admybrand-dashboard
+
+# Install deps
+npm install
+
+# Run dev server
+npm run dev
 
